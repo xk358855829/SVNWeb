@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,height=device-height,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1"><link rel=stylesheet type=text/css href=static/reset.css><script type=text/javascript src="http://api.map.baidu.com/api?v=2.0&ak=PWttlCcjWHRXa9YrV7LwVIzlT7qQRlNS"></script><script src="http://pv.sohu.com/cityjson?ie=utf-8"></script><script src=https://res.wx.qq.com/open/js/jweixin-1.0.0.js type=text/javascript charset=utf-8></script><link href=./statictingche/css/app.85b6d341a65fc7027dcab2a2f22cc744.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./statictingche/js/manifest.0379ce4e556ae3553678.js></script><script type=text/javascript src=./statictingche/js/vendor.dffd9661fe159e9cca6a.js></script><script type=text/javascript src=./statictingche/js/app.ea18b3a61e7a6a0804fb.js></script></body><script type=text/javascript>fnResize()
+		window.onresize = function() {
+			fnResize()
+		}
+		function fnResize() {
+			var deviceWidth = document.documentElement.clientWidth || window.innerWidth
+			if(deviceWidth >= 750) {
+				deviceWidth = 750
+			}
+			if(deviceWidth <= 320) {
+				deviceWidth = 320
+			}
+			document.documentElement.style.fontSize = (deviceWidth / 3.75) + 'px'
+		}</script></html>

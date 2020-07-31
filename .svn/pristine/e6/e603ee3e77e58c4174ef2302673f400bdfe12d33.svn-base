@@ -1,0 +1,419 @@
+<template>
+	<div id="SalesStatistics">
+		<el-row class='fa'>
+			<el-col :span="11">
+				<div class="echartTitle">停车场类型数量统计</div>
+				<div id="cake"></div>
+			</el-col>
+			<el-col :span="2"> &nbsp;</el-col>
+			<el-col :span="11">
+				<div class="echartTitle">停车支付类型统计</div>
+				<div id="column"></div>
+			</el-col>
+		</el-row>
+		<el-row class='fa'>
+			<el-col :span="11">
+				<div class="echartTitle">当天停车场车辆入场时间统计</div>
+				<div id="line"></div>
+			</el-col>
+			<el-col :span="2"> &nbsp;</el-col>
+			<el-col :span="11">
+				<div class="echartTitle">流量卡使用情况(蛛网)</div>
+				<div id="radar"></div>
+			</el-col>
+		</el-row>
+	</div>
+</template>
+
+<script>
+	import Qs from 'qs'
+	import axios from 'axios'
+	import echarts from 'echarts'
+	import {mapState,mapActions,mapGetters} from 'vuex'
+	export default {
+		name: 'equipmentList',
+		data () {
+		    return {
+				alis:'',
+				municipal:0,
+				resident:0,
+				business:0,
+				parik:0,
+				commerce:0,
+				other:0,
+				traffic:0,
+				agricul:0,
+				table:[],
+				feel:0,
+				apliay:0,
+				wechat:0,
+				cash:0,
+				tequ:0,
+				empty:0,
+				one:0,
+				two:0,
+				three:0,
+				four:0,
+				five:0,
+				six:0,
+				seven:0,
+				eight:0,
+				nine:0,
+				ten:0,
+				eleven:0,
+				twelve:0,
+		    	num:{
+		    		AbnorCount:'',
+					cheCount:'',
+					count:'',
+					encloseCount:''
+				},
+				sanitation:'',
+				landscaping:'',
+				watercom:'',
+				firemaster:'',
+				paging:{
+					page:1,
+					pageSize:10,
+					total:''
+				},
+				x:0,
+				y:0,
+				twotime:'',
+				tableDatap:'',
+				tableData:[],
+				xAxis19:[],
+				series18:[],
+				arr:[],
+				arr2:[],
+				value15: '',
+				value16: '',
+				numtotals:''
+		    }
+		},
+		watch:{
+			 messArray_get : function(val){
+				console.log(val)
+				for(let i=0;i<val.length;i++){
+					if(val[i].parking_lot_type==3){
+						this.municipal+=1;
+					}else if(val[i].parking_lot_type==1){
+						this.resident+=1;
+					}else if(val[i].parking_lot_type==2){
+						this.business+=1;
+					}else if(val[i].parking_lot_type==4){
+						this.parik+=1;
+					}else if(val[i].parking_lot_type==5){
+						this.commerce+=1;
+					}else if(val[i].parking_lot_type==6){
+						this.other+=1;
+					}else if(val[i].parking_lot_type==7){
+						this.traffic+=1;
+					}else{
+						this.agricul+=1;
+					}
+				}
+				this.table=[this.municipal,this.resident,this.business,this.parik,this.commerce,this.other,this.traffic,this.agricul]
+				console.log(this.table)
+				this.draw()
+			},
+			listup:function(val){
+				console.log(val)
+				var lcknum=0
+				for(let i=0;i<val.length;i++){
+					lcknum+=val[i].price
+					if(val[i].pay_type==1){
+						this.feel+=1;
+					}else if(val[i].pay_type==2){
+						this.apliay+=1;
+					}else if(val[i].pay_type==3){
+						this.wechat+=1;
+					}else if(val[i].pay_type==8){
+						this.tequ+=1;
+					}else if(val[i].pay_type==8){
+						this.cash+=1;
+					}else{
+						this.empty+=1
+					}
+					this.numtotals=lcknum
+				}
+					for(let i=0;i<val.length;i++){
+						console.log(val[i].startdate.slice(5,7))
+						if(val[i].startdate.slice(11,13)>0&&val[i].startdate.slice(11,13)<2){
+							this.one+=1;
+						}else if(val[i].startdate.slice(11,13)>2&&val[i].startdate.slice(11,13)<4){
+							this.two+=1;
+						}else if(val[i].startdate.slice(11,13)>4&&val[i].startdate.slice(11,13)<6){
+							this.three+=1;
+						}else if(val[i].startdate.slice(11,13)>6&&val[i].startdate.slice(11,13)<8){
+							this.four+=1;
+						}else if(val[i].startdate.slice(11,13)>8&&val[i].startdate.slice(11,13)<10){
+							this.five+=1;
+						}else if(val[i].startdate.slice(11,13)>10&&val[i].startdate.slice(11,13)<12){
+							this.six+=1;
+						}else if(val[i].startdate.slice(11,13)>12&&val[i].startdate.slice(11,13)<14){
+							this.seven+=1;
+						}else if(val[i].startdate.slice(11,13)>14&&val[i].startdate.slice(11,13)<16){
+							this.eight+=1;
+						}else if(val[i].startdate.slice(11,13)>16&&val[i].startdate.slice(11,13)<18){
+							this.nine+=1;
+						}else if(val[i].startdate.slice(11,13)>18&&val[i].startdate.slice(11,13)<20){
+							this.ten+=1;
+						}else if(val[i].startdate.slice(11,13)>20&&val[i].startdate.slice(11,13)<22){
+							this.eleven+=1;
+						}else{
+							this.twelve+=1
+						}
+					}
+					this.draw2()
+					this.draw1()
+			}
+		},
+		computed:{
+			...mapState(['parkingtitle','typepayLIST']),
+			...mapGetters(['messArray_get','listup'])
+		},
+		methods:{
+			...mapActions(['parktitle','typepays']),
+			draw(){
+				let myChartCake = echarts.init(document.getElementById('cake'));
+				let optionCake = {
+			    title : {
+			        text: '',
+			        subtext: ""/*'纯属虚构'*/,
+			        x:'center'
+			    },
+			    tooltip : {
+			        trigger: 'item',
+			        formatter: "{a} <br/>{b} : {c} ({d}%)"
+			    },
+			    legend: {
+			        orient: 'horizontal',/*水平*/
+			        left: 'center',/*居中*/
+			        data: ['浙江','上海','成都','北京','郑州']
+			    },
+			    series : [
+			        {
+			            name: '访问来源',
+			            type: 'pie',
+			            radius : '55%',
+			            center: ['50%', '60%'],
+			            data:[
+			                {value:this.resident, name:'居民小区'},
+			                {value:this.municipal, name:'路测停车'},
+			                {value:this.business, name:'商圈停车场'},
+			                {value:this.parik, name:'公园景点'},
+							{value:this.commerce, name:'商务楼宇'},
+							{value:this.other, name:'其它'},
+							{value:this.traffic, name:'交通枢纽'},
+							{value:this.agricul, name:'市政设施'},
+			            ],
+			            itemStyle: {
+			                emphasis: {
+			                    shadowBlur: 10,
+			                    shadowOffsetX: 0,
+			                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+			                }
+			            }
+			        }
+			    ],
+			};
+		  	myChartCake.setOption(optionCake);
+			},
+			draw1(){
+				let myChartColumn = echarts.init(document.getElementById('column'));
+				let optionColumn = {
+			    xAxis: {
+			        type: 'category',
+			        data: ['支付宝支付', '微信支付', '无感支付', '现金支付', '特权']
+			    },
+			    yAxis: {
+			        type: 'value'
+			    },
+			    legend: {
+			       /* data: ['直接访问','邮件营销','联盟广告']*/
+			    },
+			    series: [{
+			    	/*name:'流量卡使用情况',*/
+			        data: [this.apliay,this.wechat,this.feel,this.cash,this.tequ],
+			        type: 'bar'
+			    }/*,{
+			    	name:'邮件营销',
+			        data: [220, 182, 191, 234, 290, 330, 310],
+			        type: 'bar'
+			    },{
+			    	name:'联盟广告',
+			        data: [150, 232, 201, 154, 190, 330, 410],
+			        type: 'bar'
+			    }*/],
+			    /*color:['#95c53b','#4da6b1','#f28f27']*/
+			};
+			myChartColumn.setOption(optionColumn);
+			},
+			draw2(){
+				let myChartLine = echarts.init(document.getElementById('line'));
+				let optionLine = {
+			    title: {
+			        text: ''
+			    },
+			    tooltip: {
+			        trigger: 'axis'
+			    },
+			    legend: {
+			        /*data:['浙江','上海','温州','北京','郑州']*/
+			    },
+			    grid: {
+			        left: '3%',
+			        right: '4%',
+			        bottom: '3%',
+			        containLabel: true
+			    },
+			    toolbox: {
+			        feature: {
+			            /*saveAsImage: {}*//*下载图标*/
+			        }
+			    },
+			    xAxis: {
+			        type: 'category',
+			        boundaryGap: true,
+			        data: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月']
+			    },
+			    yAxis: {
+			        type: 'value'
+			    },
+			    series: [
+			        {
+			            name:'',
+			            type:'line',
+			            stack: '总量',
+						data:[this.one, this.two,this.three,this.four,this.five,this.six,this.seven,this.eight,this.nine, this.ten,this.eleven,this.twelve]
+					},
+					{
+						name: '去年',
+						type: 'bar',
+						data: [1, 2, 3, 4, 4, 2]
+					},
+					{
+						name: '今年',
+						type: 'bar',
+						data: [1, 2, 3, 4, 4, 2]
+					},
+					{
+						name: '每月',
+						type: 'bar',
+						data: [1, 2, 3, 4, 4, 2]
+					},
+			        /*{
+			            name:'',
+			            type:'line',
+			            stack: '总量',
+			            data:[220, 182, 191, 234, 290, 330, 310]
+			        },
+			        {
+			            name:'',
+			            type:'line',
+			            stack: '总量',
+			            data:[150, 232, 201, 154, 190, 330, 410]
+			        }*/
+			    ],
+			    /*color:['#95c53b','#4da6b1','#f28f27']*/
+			};
+			
+		  	myChartLine.setOption(optionLine);
+			}
+		},
+		mounted(){
+
+			document.title=this.$route.meta.title;
+			this.parktitle()
+			this.typepays()
+			console.log(this.typepayLIST)
+			// console.log(JSON.parse(localStorage.getItem('usein')))
+			// this.alis=JSON.parse(localStorage.getItem('usein'))
+			// this.message=JSON.parse(localStorage.getItem('licks'))
+			// this.message=this.ONEreslist
+			// this.$store.dispatch('parktitle')
+			
+			// console.log(this.$store.state.ONEreslist)
+			// console.log(this.parkingtitle)
+			// this.$store.dispatch('typepays')
+			
+			// console.log(this.table)
+			
+
+			
+			
+			
+			let myChartRadar = echarts.init(document.getElementById('radar'));
+			let optionRadar = {
+			    title: {
+			        text: ''
+			    },
+			    tooltip: {},
+			    legend: {
+			        /*data: ['浙江','上海','温州','北京','郑州']*/
+			    },
+			    radar: {
+			        // shape: 'circle',
+			        name: {
+			            textStyle: {
+			                color: '#fff',
+			                backgroundColor: '#999',
+			                borderRadius: 3,
+			                padding: [3, 5]
+			           }
+			        },
+			        indicator: [
+			           { name: '周一', max: 250},
+			           { name: '周二', max: 250},
+			           { name: '周三', max: 250},
+			           { name: '周四', max: 250},
+			           { name: '周五', max: 250},
+			           { name: '周六', max: 250},
+			           { name: '周日', max: 250}
+			        ]
+			    },
+			    series: [{
+			        name: '',
+			        type: 'radar',
+			        // areaStyle: {normal: {}},
+			        data : [
+			            {
+			                value : [120, 132, 101, 134, 90, 230, 210],
+			                name : ''
+			            },
+			            /*{
+			                value : [220, 182, 191, 234, 290, 330, 310],
+			                name : '联盟广告'
+			            },
+			            {
+			                value : [150, 232, 201, 154, 190, 330, 410],
+			                name : '视频广告'
+			            }*/
+			        ]
+			    }],
+			    /*color:['#95c53b','#4da6b1','#f28f27']*/
+			};
+			
+			
+		  	myChartRadar.setOption(optionRadar);
+			// setTimeout(function(){
+			// 	window.onresize = function () {
+			// 		// resizeWorldMapContainer();
+			// 		myChartCake.resize();
+			// 		myChartColumn.resize();
+			// 		myChartLine.resize();
+			// 		myChartRadar.resize();
+			// 	}
+			// },20)
+			
+		}
+	}
+</script>
+
+<style>
+#SalesStatistics{padding: 20px;}
+.fa{width: 100%;}
+#cake,#column,#line,#radar{width: 100%;height:500px;}
+
+</style>

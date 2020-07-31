@@ -1,0 +1,3 @@
+.mint-cell-value{
+		width: 0px!important;
+	}

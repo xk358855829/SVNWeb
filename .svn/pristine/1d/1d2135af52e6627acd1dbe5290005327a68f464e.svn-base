@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title></title>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		function getQueryString(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+			var r = window.location.search.substr(1).match(reg);
+			if(r != null) return unescape(r[2]);
+			return null;
+		}
+		//alert(getQueryString('code'));
+		localStorage.setItem('code',getQueryString('code'))
+
+		$.ajax({
+			type:"get",
+			url:"http://114.55.168.103:2088/User/add",
+			async:true,
+			data:{
+				code: getQueryString('code')
+			},
+			success:function(message){
+				console.log(message)
+				var openId = message.openId;
+				localStorage.setItem('openid', openId)
+				localStorage.setItem('nickname',message.nickname)
+				localStorage.setItem('country',message.country)
+				localStorage.setItem('sex',message.sex)
+				localStorage.setItem('headimgurl', message.headimgurl)
+				if(message.resCode=="1"){									
+					location.href = 'indexxiche.html?_'+new Date().getTime();
+				}else if(message.resCode=="0"){
+					$.ajax({
+						type: "post",
+						url: "http://114.55.168.103:2088/User/findTelByOpenId",
+						async: true,
+						data: {
+							openId: localStorage.getItem('openid')
+						},
+						success: function (message) {
+							if (message.resCode == '1') {
+								location.href = 'indexxiche.html?_'+new Date().getTime();
+							} else {
+								localStorage.setItem('phone', message.result.tel)
+								localStorage.setItem('tel', message.result.tel)
+								localStorage.setItem('relName',message.result.relName)
+								location.href = 'indexxiche.html?'+new Date().getTime()+'#/people'
+							}
+						}
+					})									
+				} else if (message.resCode == "-1") {
+					window.location.href = 'indexxiche.html?' + new Date().getTime() + '#/washFollow'
+				}	
+			}
+		});
+	</script>
+
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>速利科技</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style-font.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/showCss.css">
+    <link rel="Shortcut Icon" href="images/bitbug_faviconH.ico">
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">
+                    <img class="img-responsive gif" src="images/logo1.png"/>
+                    <img class="imgRight" src="images/safe0.png">
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">首页</a></li>
+                        <li class="topLi">
+                            <a href="product-service.html">智能终端</a>
+                            <div class="showBox proBox">
+                                <ul>
+                                    <li>出行安全</li><li>场馆安全</li><li>城市安全</li><li>社区安全</li><li>平台服务</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="topLi">
+                            <a class="active" href="SystemScheme.html">系统方案</a>
+                            <div class="showBox sysBox">
+                                 <ul class="lastmomet">
+                                    <li><a href="safe4.html">智能停车解决方案</a></li><li><a href="safe1.html">智能消防栓解决方案</a></li><li><a href="safe3.html">智能门锁解决方案</a></li><li><a href="SystemScheme.html">智能车辆定位解决方案</li></a><li><a href="safe2.html">智能场馆解决方案</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li><a href="about-us.html">关于我们</a></li> -->
+                        <li><a href="new.html">合作伙伴</a></li>
+                        <li><a href="contact-us.html">关于速利</a></li>
+                       <li><a href="resume.html">加入我们</a></li>
+                        <li class="topLi">
+                            <a href="###">平台入口</a>
+                            <div class="showBox proBoxs">
+                                <ul>
+                                   <li><a href="http://cloud.sokeed.com">停车服务云平台</a></li>
+                                    <li><a href="http://dlock.sokeed.com">家居服务云平台</a></li>
+                                    <li><a href="http://car.sokeed.com">出行服务云平台</a></li>
+                                    <li><a href="http://fireplug.sokeed.com">消防服务云平台</a></li>
+                                    <li><a href="http://sport.sokeed.com">门禁服务云平台</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav>
+    <!--ban   start-->
+    <div class="product-ban">
+        <img src="images/aaa.png" alt="First slide">
+    </div>
+    <!--banner  end-->
+    <!---->
+   <!--  <div class="product-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="product-content">
+                        <h4>系统方案</h4>
+                        <ul class="product-tab list-unstyled">
+                            <li class="green">智能停车解决方案</li>
+                            <li>智能门锁解决方案</li>
+                            <li>智能公寓解决方案</li>
+                            <li>智能车辆定位解决方案</li>
+                            <li>智能场馆解决方案</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="tab-scroll">
+                        <div class="tab-content">
+                            <div>
+                                <h4><strong>智能停车解决方案</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/21.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="tab-content">
+                            <div>
+                                <h4><strong>智能门锁解决方案</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/23.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="tab-content">
+                            <div>
+                                <h4><strong>智能公寓解决方案</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/22.jpg" alt="">
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="tab-content">
+                            <div>
+                                <h4><strong>智能车辆定位解决方案</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/24.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                        <div class="tab-content">
+                            <div>
+                                <h4><strong>智能场馆解决方案</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/25.jpg" alt="">
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 内容 -->
+    <div class="content0">
+        <div class="safe">
+            <h2>城市安全·智能消防栓系统</h2>
+            <div class="sam sams">
+                建立消防栓设备管理平台，结合最新的移动通讯技术，对传统消防栓进行改造升级，对设备进行监管，可及时定位、让消防用水更加安全、智能。
+            </div>
+            <div class="sampic">
+                <img src="images/k.png" alt="">
+            </div>
+            <div class="bott boots">
+                <img src="images/gg.png" alt="">
+                <p>智能消防栓系统示意图</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="content1">
+        <div class="pic">
+            <img src="images/k1.png" alt="">
+        </div>
+        <div class="exmpale">
+            <div class="position">
+                <h2 class="phone">城市安全·智能消防栓·手机移动端</h2>
+                <p>微信移动端管理平台，无需安装APP</p>
+                <p>扫扫二维码，即可了解消防栓的基本信息</p>
+                <p>查看设备实时状态、用水统计、周边设备查询等</p>
+                <p class="last lasts">支持远程消防栓锁的开启和关闭</p>
+            </div>
+        </div>
+    </div>
+    <div class="content1 content1s">
+        <div class="pic pics">
+            <img src="images/k2.png" alt="">
+        </div>
+        <div class="position positions">
+            <h2 class="yen">城市安全·智能消防栓·设备服务云平台</h2>
+            <div>
+                <div class="border smartphone"></div><div class="size">让消防设备有数可寻，消防用水更加可靠</div>
+            </div>
+            <p class="one">设备使用人群进行权限分配</p>
+            <p>设备集中销售管理，及时了解设备营销状况</p>
+            <p>监测设备电量、水温、压力等运行状态</p>
+            <p>消防用水进行统计、分析</p>
+            <p class="last lastss">可与相关部门进行数据对接</p>
+        </div>
+        
+    </div> -->
+    <!-- 11 -->
+    <div class="content1 content1gh content1ghq">
+        <div class="position">
+            <div class="toa">
+                <div class="midserg midsergs"></div>
+                <div class="respontopp respontoppp">
+                    <div class="resh2">城市安全·智能消防栓·手机移动端</div>
+                </div>
+                <div class="responbottm">
+                    <p>微信移动端管理平台，无需安装APP</p>
+                    <p>扫扫二维码，即可了解消防栓的基本信息</p>
+                    <p>查看设备实时状态、用水统计、周边设备查询等</p>
+                    <p class="last">支持远程消防栓锁的开启和关闭</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="content1 content1gqh content1gqhq">
+        <div class="position positionan">
+            <div class="toa toaa">
+                <div class="midserg midsergs flf"></div>
+                <div class="respontopp respontoppp flf">
+                    <div class="resh2">城市安全·智能消防栓·设备服务云平台</div>
+                    <div class="midelw">
+                        <div class="uiop"></div>
+                        <div class="moire">
+                            <span class="border bordersize bor borm"></span><span>让消防设备有数可寻，消防用水更加可靠</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="responbottm flf">
+                    <p>设备使用人群进行权限分配</p>
+                    <p>设备集中销售管理，及时了解设备营销状况</p>
+                    <p>监测设备电量、水温、压力等运行状态</p>
+                    <p>消防用水进行统计、分析</p>
+                    <p class="last">可与相关部门进行数据对接</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--底部-->
+    <div class="nav-footer nav-foot">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-plam pull-left">
+                    <div class="hh">关于速利</div>
+                    <p>速利简介</p>
+                    <p>加入速利</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">服务支持</div>
+                    <p>合作伙伴</p>
+                    <p>联系我们</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">合作伙伴</div>
+                    <p>下载中心</p>
+                    <p>典型客户</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">产品系列</div>
+                    <p>智能终端</p>
+                    <p>软件系统</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="index-img">
+                        <img src="images/tu.png" alt=""/>
+                    </div>
+                    <h4>关于我们</h4>
+                </div>
+            </div>
+            <!-- <div class="foot-phone-content">
+                <h4>产品方案</h4>
+                <div class="phone-line">
+                    <p class="pull-left">共享出行</p>
+                    <p class="pull-left">运动健康</p>
+                    <p class="pull-left">智慧城市</p>
+                    <p class="pull-left">智能家居</p>
+                    <p class="pull-left">平台服务</p>
+                </div>
+                <h4>关于我们</h4>
+                <div class="phone-line">
+                    <p class="pull-left">公司简介</p>
+                    <p class="pull-left">公司理念</p>
+                    <p class="pull-left">平台模式</p>
+                </div>
+                <h4>联系我们</h4>
+                <div class="phone-line">
+                    <p class="pull-left">公司地址</p>
+                    <p class="pull-left">联系方式</p>
+                    <p class="pull-left">电子邮件</p>
+                </div>
+                <h4>关注我们</h4>
+                <div class="phone-line">
+                    <img src="images/code-img.jpg" alt=""/>
+                </div>
+            </div> -->
+            <p class="text-center">浙ICP备17053660号  浙公网安备 3301040084909号 </p>
+        </div>
+    </div>
+    <!--底部end-->
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src='js/index.js'></script>
+<script type="text/javascript" src="js/share.js"></script>
+</body>
+</html>

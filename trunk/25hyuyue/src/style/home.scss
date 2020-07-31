@@ -1,0 +1,8 @@
+ li{@include wh(6.86rem,1.78rem);background: #fff;display: flex;margin:0 auto;border-radius: 0.1rem;margin-bottom:0.44rem;}
+li .left{@include wh(75%,100%);}
+li .right{@include wh(25%,100%);margin-top:0.4rem;text-align: center;margin-right:0.3rem;}
+.right div{@include wh(1.6rem,0.68rem);background: rgb(246,139,28);@include font(13px,0.68rem,'PingFang-SC-Regul');@include sc(13px,#fff);border-radius: 5px;}
+.right p{@include font(10px,0.12rem,'PingFang-SC-Regul');margin-top:0.12rem;@include sc(10px,rgb(144,144,144));}
+.left div{@include font(16px,0.2rem,'PingFang-SC-Regul');margin-top:0.5rem;margin-left:0.3rem;@include sc(16px,rgb(48,48,48));}
+.left .price{color:rgb(246,139,28);margin-top:0.3rem;}
+.left .detail{@include font(10px,0.2rem,'PingFang-SC-Regul');color:rgb(104,104,104);margin-top:0.08rem;font-size: 10px!important;}

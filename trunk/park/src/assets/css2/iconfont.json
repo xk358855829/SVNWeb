@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4080547",
+      "name": "积分规则",
+      "font_class": "jifenguize",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "4758778",
+      "name": "解绑",
+      "font_class": "jiebang",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "7410041",
+      "name": "绑定",
+      "font_class": "bangding",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    }
+  ]
+}

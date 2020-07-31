@@ -1,0 +1,7 @@
+$color:#ADADAD;
+$rol:#2D2D2D;
+$white:#fff;
+@mixin text1 {
+    font-size:0.16rem;
+    border: none;
+}

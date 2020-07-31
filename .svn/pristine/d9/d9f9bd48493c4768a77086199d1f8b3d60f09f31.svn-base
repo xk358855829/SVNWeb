@@ -1,0 +1,61 @@
+.oyTable th{
+    background-color: #e3eaf3!important;
+}
+.el-aside{
+    overflow: inherit!important;
+}
+.el-main{
+padding:0!important;
+}
+/* .el-button{
+padding: 0px 0px;
+} */
+.el-tabs__active-bar{
+    background-color: #a2cc6d;
+}
+.el-tabs__item:hover{
+    color: #a2cc6d;
+}
+.el-tabs__item.is-active{
+    color: #a2cc6d;
+}
+.el-collapse-item__wrap{
+        border: none!important;
+    }
+.el-collapse-item__content{padding: 0!important;}
+/* .oyButton{
+    border: 1px solid #e55e5e!important;
+    background: #e55e5e!important;
+} */
+.el-form-item__label{
+  width:121px!important;
+  box-sizing: content-box;
+}
+.el-table th{
+  text-align: center
+}
+input[type=text] {
+  border-radius: 5px;
+}
+.el-step__head.is-finish {
+  color: #67c23a !important;
+  border-color: #67c23a !important;
+}
+
+.el-step__title.is-finish {
+  color: #67c23a !important;
+}
+.el-step__head.is-process {
+  color: #c0c4cc !important;
+  border-color: #c0c4cc !important;
+}
+.el-step__title.is-process{
+  color: #c0c4cc !important;
+}
+.el-table .cell {
+  text-align: center !important;
+}
+
+
+
+

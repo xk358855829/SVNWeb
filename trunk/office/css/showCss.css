@@ -1,0 +1,27 @@
+.img-centered{
+	display: inline-block;
+	width: 100%;
+}
+.topImg{
+	width: 96%;
+	max-width: 800px;
+	margin:0 auto;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	box-align: center;
+	-moz-box-align: center;
+	-webkit-box-align: center;
+	justify-content: center;
+}
+.topSpan{
+	width: 96%;
+	max-width: 800px;
+	margin:0 auto;
+	/*font-size:15px;*/
+	/*font-family: "Microsoft Yahei", simsun, "Times New Roman", Times, serif;*/
+}
+.imgLeft{
+	width: 50%;
+}

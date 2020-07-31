@@ -1,0 +1,3 @@
+export const BINDTOTAL = "BINDTOTAL";
+export const DEVICELIST = "DEVICELIST";
+export const DEVICETOTAL = "DEVICETOTAL";

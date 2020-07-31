@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<style type="text/css">
+  * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+  }
+</style>
+
+<body>
+</body>
+<script type="text/javascript">
+  function add(m) { return m < 10 ? '0' + m : m }
+  function timeToDate(data) {
+    var d = new Date(data);//ʱ����ǵó���1000�ٽ��д���
+    var year = d.getFullYear();
+    var month = d.getMonth() + 1;
+    var date = d.getDate();
+    var hour = d.getHours();
+    var minute = d.getMinutes();
+    var second = d.getSeconds();
+    // return year + "-" + month + "-" + date + " " + hour + ":" + minute + ":" + second;
+    return year + "-" + add(month) + "-" + add(date) + " " + add(hour) + ":" + add(minute) + ":" + add(second);
+  }
+
+  function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]);
+    return null;
+  }
+  console.log(getQueryString('code'))
+  console.log(getQueryString('id'))
+  console.log(getQueryString('state'))
+
+  $.ajax({
+    type: "post",
+    url: "http://114.55.168.103:2088/User/add",
+    // url:"http://39.104.113.112:2088/User/add",
+    async: true,
+    data: {
+      code: getQueryString('code')
+    },
+    success: function (message) {
+      console.log(message)
+      if (message.resCode == "0" || message.resCode == "1") {
+        localStorage.setItem('openid', message.openId)
+        localStorage.setItem('nickname', message.nickname)
+        localStorage.setItem('country', message.country)
+        localStorage.setItem('sex', message.sex)
+        localStorage.setItem('headimgurl', message.headimgurl)
+        if (message.msg.resCode == 0) {
+          sessionStorage.setItem('ticketarr', JSON.stringify(message.msg.resMsg));
+        }
+        if (message.resCode == "0") {
+          $.ajax({
+            type: "post",
+            url: "http://114.55.168.103:2088/User/findTelByOpenId",
+            // url:"http://39.104.113.112:2088/User/findTelByOpenId",
+            async: true,
+            data: {
+              openId: localStorage.getItem('openid')
+            },
+            success: function (message) {
+              if (message.resCode == '1') {
+                location.href = 'indexxiche.html?' + new Date().getTime() + '#/vipGivePeople?id=' + getQueryString('id');
+              } else {
+                localStorage.setItem('phone', message.result.tel)
+                localStorage.setItem('tel', message.result.tel)
+                localStorage.setItem('relName', message.result.relName)
+                location.href = 'indexxiche.html?' + new Date().getTime() + '#/vipGivePeople?id=' + getQueryString('id');
+              }
+            }
+          })
+        } else {
+          location.href = 'indexxiche.html?' + new Date().getTime() + '#/vipGivePeople?id=' + getQueryString('id');
+        }
+      } else if (message.resCode == "2") {
+        localStorage.setItem('openid', message.result)
+        $.ajax({
+          type: "post",
+          url: "http://114.55.168.103:2088/User/findTelByOpenId",
+          // url:"http://39.104.113.112:2088/User/findTelByOpenId",
+          async: true,
+          data: {
+            openId: localStorage.getItem('openid')
+          },
+          success: function (message) {
+            if (message.resCode == '1') {
+              location.href = 'indexxiche.html?' + new Date().getTime() + '#/vipGivePeople?id=' + getQueryString('id');
+            } else {
+              localStorage.setItem('phone', message.result.tel)
+              localStorage.setItem('tel', message.result.tel)
+              localStorage.setItem('relName', message.result.relName)
+              location.href = 'indexxiche.html?' + new Date().getTime() + '#/vipGivePeople?id='+ getQueryString('id');
+            }
+          }
+        })
+      } else if (message.resCode == "-1") {
+        window.location.href = 'indexxiche.html?' + new Date().getTime() + '#/washFollow'
+      }
+    }
+  })		
+</script>
+
+</html>

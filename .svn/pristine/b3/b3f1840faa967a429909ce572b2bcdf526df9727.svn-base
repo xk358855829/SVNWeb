@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>速利科技</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style-font.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/showCss.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="Shortcut Icon" href="images/bitbug_faviconH.ico">
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">
+                    <img class="img-responsive gif" src="images/logo1.png"/>
+                    <img class="imgRight" src="images/safe0.png">
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">首页</a></li>
+                        <li class="topLi">
+                            <a href="product-service.html">智能终端</a>
+                            <div class="showBox proBox">
+                                <ul>
+                                    <li>出行安全</li><li>场馆安全</li><li>城市安全</li><li>社区安全</li><li>平台服务</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="topLi">
+                            <a href="SystemScheme.html">系统方案</a>
+                            <div class="showBox sysBox">
+                                 <ul class="lastmomet">
+                                   <li><a href="safe4.html">智能停车解决方案</a></li><li><a href="safe1.html">智能消防栓解决方案</a></li><li><a href="safe3.html">智能门锁解决方案</a></li><li><a href="SystemScheme.html">智能车辆定位解决方案</li></a><li><a href="safe2.html">智能场馆解决方案</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li><a href="about-us.html">关于我们</a></li> -->
+                        <li><a href="new.html">合作伙伴</a></li>
+                        <li><a href="contact-us.html">关于速利</a></li>
+                       <li><a class="active" href="resume.html">加入我们</a></li>
+                       <li class="topLi">
+                            <a href="###">平台入口</a>
+                            <div class="showBox proBoxs">
+                                <ul>
+                                   <li><a href="http://cloud.sokeed.com">停车服务云平台</a></li>
+                                    <li><a href="http://dlock.sokeed.com">家居服务云平台</a></li>
+                                    <li><a href="http://car.sokeed.com">出行服务云平台</a></li>
+                                    <li><a href="http://fireplug.sokeed.com">消防服务云平台</a></li>
+                                    <li><a href="http://sport.sokeed.com">门禁服务云平台</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav>
+    <!--ban   start-->
+    <div class="product-ban">
+        <img src="images/banner.png" alt="First slide">
+    </div>
+    <!--banner  end-->
+    <!---->
+    <div class="product-container">
+        <div class="container">
+            <h1>我们需要谁？</h1>
+            <div class="need nded">
+                <p>如果你有激情、爱折腾、够聪明，那么你就是我们要找的人！请在下面浏览您感兴趣的职位，并把您的简历（一页足矣）</p>
+                <p>发送到：<span class="needSpan"> hr@suriot.cn</span> 什么？没看到合适的职位？请毛遂自荐，告诉我们你加入的理由！</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3 cloxs3">
+                    <div class="product-content">
+                        <div class="fflex">
+                           <div class="affle">社会招聘</div>
+                           <div class="b">校园招聘</div>
+                        </div>
+                         <ul class="productConLi">
+                        <!-- <li class="productConLiH">
+                        <h4 class="productTop">硬件</h4>
+                        <ul class="product-tab list-unstyled showTop">
+                            <li>硬件工程师</li>
+                            <li>嵌入软件式工程师</li>
+                            <li>单片机工程师</li>
+                            <li>PCB Layout工程师</li>
+                            <li>硬件测试工程师</li>
+                        </ul>
+                        </li>
+                        <li class="productConLiH">
+                        <h4 class="productTop">软件</h4>
+                        <ul class="product-tab list-unstyled">
+                            <li>JAVA后端开发工程师</li>
+                            <li>数据库工程师</li>
+                            <li>前端开发工程师</li>
+                            <li>软件测试工程师</li>
+                        </ul>
+                        </li>
+                        <li class="productConLiH">
+                        <h4 class="productTop">设计</h4>
+                        <ul class="product-tab list-unstyled">
+                            <li>UI设计</li>
+                        </ul>
+                        </li>
+                        <li class="productConLiH">
+                         <h4 class="productTop">市场</h4>
+                        <ul class="product-tab list-unstyled">
+                            <li>商务拓展</li>
+                            <li>市场营销</li>
+                        </ul>
+                        </li>
+                        <li class="productConLiH">
+                        <h4 class="productTop">内勤</h4>
+                        <ul class="product-tab list-unstyled">
+                            <li>HR</li>
+                            <li>出纳</li>
+                        </ul>
+                        </li>
+                        <li class="productConLiH">
+                        <h4 class="productTop">采购</h4>
+                        <ul class="product-tab list-unstyled">
+                            <li>采购专员</li>
+                        </ul>
+                        </li> -->
+                        <li class="numone">硬件工程师</li>
+                        <li>嵌入软件式工程师</li>
+                        <li>单片机工程师</li>
+                        <li>PCB Layout工程师</li>
+                        <li>硬件测试工程师</li>
+                        <li>JAVA后端开发工程师</li>
+                        <li>数据库工程师</li>
+                        <li>前端开发工程师</li>
+                        <li>软件测试工程师</li>
+                        <li>UI设计</li>
+                        <li>商务拓展</li>
+                        <li>市场营销</li>
+                        <li>HR</li>
+                        <li>出纳</li>
+                        <li>采购专员</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-xs-9 cloxs9">
+                    <div class="tab-scroll">
+                        <div class="tab-content">
+                            <div>
+                                <div class="h">研发部</div>
+                                <h4><strong>硬件工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>
+                                            单片机应用、硬件设计开发、电子电路设计
+                                            </p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、参与项目的需求分析，产品的硬件开发、优化、评审工作</li>
+                                                <li>2、负责原理图绘制，并按照公司规范编写、整理、输出相关设计文档以及生产所需的资料</li>
+                                                <li>3、负责硬件单元测试，协助软件开发人员完成模块的测试及调试工作</li>
+                                                <li>4、负责产品的后期维护和技术支持</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、电子信息类，机械电子类或其他电子类相关专业本科及以上学历</li>
+                                                <li>2、熟悉数字、模拟电路设计、电子元器件关键参数及元器件测试</li>
+                                                <li>3、独立进行硬件原理图设计；熟练掌握Altium Desiger/PROTEL99等工具</li>
+                                                <li>4、有单片机、蓝牙、GPS、GPRS、NB-IoT实际开发经验者优先</li>
+                                                <li>5、具有两年以上硬件研发工作经验</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="tab-content">
+                            <div>
+                                <div class="h">研发部</div>
+                                <h4><strong>嵌入式软件工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>嵌入式软件设计与开发、嵌入式操作系统</p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、负责嵌入式应用方案设计、软件开发和维护工作</li>
+                                                <li>2、负责产品软件源代码编写及调试</li>
+                                                <li>3、配合硬件工程师、服务器工程师、安卓工程师进行系统测试</li>
+                                                <li>4、负责编写软件设计文档，参与需求分析和讨论</li>
+                                                <li>5、负责产品生产的指导与跟进</li>
+                                                <li>6、负责产品的性能维护、完善和技术支持等工作</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、电力、电子、通信、计算机、软件或相关专业本科及以上学历</li>
+                                                <li>2、熟悉常用嵌入式开发工具及调试，有整体项目规划能力和方案把控能力</li>
+                                                <li>3、熟悉主流各类轻量级嵌入式操作系统的移植、裁剪和开发，熟悉嵌入式操作系统的底层原理及其架构体系</li>
+                                                <li>4、熟练阅读英文专业资料，对硬件有一定的了解</li>
+                                                <li>5、熟悉TCP/IP、WIFI通信等网络架构知识，有蓝牙、WIFI、NB-IoT开发经验者优先</li>
+                                                <li>6、有良好的编程风格和文档编制习惯；优良的团队合作精神，乐于接受挑战</li>
+                                                <li>7、具有团队合作和吃苦耐劳精神；有较强的责任心；有较强的学习能力、分析能力</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div>
+                                <div class="h">研发部</div>
+                                <h4><strong>单片机工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>单片机应用与开发、C语言</p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、基于单片机的产品开发，包括硬件设计和软件开发</li>
+                                                <li>2、负责硬件电路的设计，包含原理设计、PCB设计、电气元件选型、硬件调试</li>
+                                                <li>3、负责基于单片机平台的C语言软件开发设计、测试工作</li>
+                                                <li>4、负责编写、整理、输出相关技术开发文档和测试文档</li>
+                                                <li>5、负责对客户提供技术支持</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、电子工程、自动化、通信、测控等相关专业本科及以上学历，有电子竞赛获奖经历者优先</li>
+                                                <li>2、有ST(STM8、STM32)，430、TI等系列MCU相关的使用经验，精通至少一种常用单片机开发，并有1年以上的单片机C语言开发经验，有UCOS、Free RTOS、LINUX等系统编程经验者优先</li>
+                                                <li>3、有电子产品、硬件的设计和软件的开发能力，独立完成工作任务，有蓝牙、WiFi、NBIoT开发经验者优先</li>
+                                                <li>4、熟练使用Altium Designer或Pads或Cadence等EDA软件进行原理图及PCB设计，具有较好的原理图分析能力和PCB设计软件基本操作</li>
+                                                <li>5、具备独立分析问题和解决问题能力</li>
+                                                <li>6、有良好的沟通能力和团队精神，责任感强</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>PCB Layout工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>PCB设计</p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、完成开关电源PCB LAYOUT设计，并生成所有PCB生产需要的文件</li>
+                                                <li>2、协助电子工程师进行原理图设计</li>
+                                                <li>3、负责零件库建立，原理图与PCB之间参数的一致性审核及维护</li>
+                                                <li>4、负责具体的PCB工艺改善及资料维护</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、大专以上学历，电子或相关专业</li>
+                                                <li>2、熟练使用CAM350和AUTOCAD等软件，精通Altium Designer或Pads或Cadence等EDA软件进行原理图及PCB设计，1年以上PCB设计经验，有专业Layout公司设计经验优先</li>
+                                                <li>3、有良好的数/模电路基础，具有理解常用电路的能力</li>
+                                                <li>4、具有信号完整性和电源完整性基础，对SI/PI/EMI/散热技术有比较深刻的认识，有EMC、高速信号完整性相关设计经验及分析优先</li>
+                                                <li>5、深刻认识产品可靠性设计及可测性设计，并且了解PCB制板工艺，SMT，生产装配，并在设计中应用相关规程</li>
+                                                <li>6、具备独立分析问题和解决问题能力</li>
+                                                <li>7、有良好的沟通能力和团队精神，责任感强</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>硬件测试工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body"> 
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>产品测试、硬件测试</p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、负责产品功能和性能测试，制定测试方案，并输出测试报告</li>
+                                                <li>2、负责研发和量产中设计变更、器件替代等变更方案的测试和风险评估，保障设计质量</li>
+                                                <li>3、与相关部门紧密配合，推动并协助开发定位及解决问题</li>
+                                                <li>4、负责测试标准制定和测试工具的管理、研究和开发</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、本科及以上学历，电子、通信、自动化、计算机等相关专业，一年以上开发或测试工作经验优先</li>
+                                                <li>2、熟悉测试流程和掌握各种测试仪器</li>
+                                                <li>3、熟悉电子电路设计和测试方法，有硬件电路调试经验者优先</li>
+                                                <li>4、较强的学习能力和沟通能力，较强逻辑分析能力,书面表达能力和文档编缉能力</li>
+                                                <li>5、工作作风踏实，做事认真、细心、能吃苦耐劳，学习精神强，良好的团队协作精神</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>JAVA后端开发工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>
+                                            Java、物联网
+                                            </p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、部门协同开发，与团队能够快速融合和完成任务</li>
+                                                <li>2、编写开发和设计相关的文档或手册</li>
+                                                <li>3、参与核心业务平台的核心功能的设计与开发</li>
+                                                <li>4、负责产品的后期维护和技术支持</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、1年以上Java开发经验，擅长物联网通讯和协议开发，有至少1个以上采集通信方面的物联网项目开发经验</li>
+                                                <li>2、熟知常用的物联网协议编程，例如基于TCP/UDP的私有通讯协议的处理，或基于标准NB-Iot/CoAP/MQTT/ZIGBEE/Lorawan/DLMS的开发</li>
+                                                <li>3、Java基础扎实，具有良好的代码风格，精通J2EE,熟悉restAPI及JS脚本开发；有编写json/xml等数据交换格式接口经验</li>
+                                                <li>4、熟悉 Webwork/Struts2、Spring/SpringBoot/SpringMVC、Hibernate/Mybatis 等开源框架，并有相关的项目开发和管理经验</li>
+                                                <li>5、熟练掌握 ORACLE/MySql 数据库及相关技术</li>
+                                                <li>6、熟练掌握 eclipse、 IntelliJ IDEA 等 Java 开发工具</li>
+                                                <li>7、熟练linux下服务器环境部署</li>
+                                                <li>8、熟悉软件开发过程，具有良好的编程习惯</li>
+                                                <li>9、强烈的责任心和团队合作能力，性格开朗，善于沟通，良好的学习能力，逻辑思维能力并且敢于创新和接受挑战</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>数据库工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>数据库开发、MySQL</p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、参与项目的需求和设计的讨论与分析，进行数据库架构及结构设计</li>
+                                                <li>2、制定并执行数据库的高性能、高可用和高可扩展性保障方案</li>
+                                                <li>3、负责服务器及数据库系统的日常维护和监控，保障线上业务的正常运转，及时处理运维事故，降低故障风险</li>
+                                                <li>4、与开发人员配合，进行业务系统的SQL查询分析和优化</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、精通关系数据库的运行机制、体系架构与性能优化，1年以上MySQL DBA经验</li>
+                                                <li>2、精通MySQL Master-Master/Slaves/Cluster应用运行体系及高可用、读写分离解决方案</li>
+                                                <li>3、熟悉关系型数据库设计流程及规范，精通SQL语句编写，并能熟练使用相关监控、分析、开发和管理工具</li>
+                                                <li>4、熟悉Linux操作系统的管理维护与使用</li>
+                                                <li>5、善于沟通、责任心强、能快速进入工作状态，具良好的团队合作精神，工作认真、细致、负责，并能在一定压力下完成工作</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>前端开发工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>前端开发、html、Vue</p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、根据产品需求高质量完成Web前端开发和维护</li>
+                                                <li>2、负责项目的前端开发, 配合后台开发人员实现产品交互界面</li>
+                                                <li>3、对产品进行性能优化，实现极致的页面加载、执行和渲染时间</li>
+                                                <li>4、在理解产品业务的基础上，提升产品的用户体验</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、本科以上学历，计算机及相关专业毕业，1年以上Web前端开发工作</li>
+                                                <li>2、熟悉Html5、CSS3、CSS，能独立完成DIV+CSS布局网页设计</li>
+                                                <li>3、熟练掌握一种以上前端框架(Bootstrap,Vue, React, Angular等), 有项目实践经验</li>
+                                                <li>4、对桌面浏览器兼容性和移动端的Html5页面适配有一定的经验</li>
+                                                <li>5、熟悉Ajax以及Json、Xml等数据交换格式，能独立完成WEB页面动态效果</li>
+                                                <li>6、了解后端开发，有Java开发经验者优先考虑</li>
+                                                <li>7、具备抗压能力且有一定的自学能力</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>软件测试工程师</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>软件测试</p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、熟悉软件测试流程、方法，精通软件测试用例设计</li>
+                                                <li>2、能独立完成项目测试任务，根据项目需求及设计等进行测试用例设计、执行、提交缺陷，并对测试结果进行分析和总结，编写测试报告</li>
+                                                <li>3、发现问题，推动问题及时合理的解决，确保质量</li>
+                                                <li>4、与产品、设计、开发进行沟通，促进产品质量提高，并及时反馈工作进展及成果</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、熟悉Linux常用命令。SQL语法</li>
+                                                <li>2、思维清晰敏捷，逻辑分析能力强，良好的语言与书面表达能力</li>
+                                                <li>3、善于学习总结，工作认真负责，有耐心和责任心，抗压能力强</li>
+                                                <li>4、1年以上测试经验，有互联网测试经验优先</li>
+                                                <li>5、有移动端测试、接口测试、性能测试经验、计算机/软件工程专业优先</li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>UI设计</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>
+                                            UI、互联网产品设计
+                                            </p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、负责公司产品的设计和宣传</li>
+                                                <li>2、设计产品界面，为用户提升产品体验度</li>
+                                                <li>3、协助运营部门和开发人员设计和制作专题页面</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、有1年及以上互联网产品设计经验</li>
+                                                <li>2、对产品定位、用户群体、色彩、布局、线条、用户习惯等有很好的理解和把握，注重细节设计和创意</li>
+                                                <li>3、具备高度的责任心、优秀的创新能力、良好的沟通能力及团队合作精神</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>商务拓展</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>
+                                            商务拓展，项目招商
+                                            </p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、严格执行公司规章制度，认真履行工作职责</li>
+                                                <li>2、按公司业务开拓流程及工作制度要求进行月计划招商工作</li>
+                                                <li>3、积极开展市场调查、分析和预测，为上级及时提供有效的商业信息</li>
+                                                <li>4、掌握市场动态，积极适时、有效地开辟新的商户，拓宽招商渠道，不断收集目标商户信息，建立详实的商户档案</li>
+                                                <li>5、负责客户拜访及回访，定时拜访客户，积累招商客户资源，,认真讲解招商政策，做好客户问题的回答工作</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、25-45岁，男女不限</li>
+                                                <li>2、口齿清晰，普通话标准</li>
+                                                <li>3、具有极强的团队协作能力</li>
+                                                <li>4、性格坚韧，思维敏捷，具备良好的应变能力和承压能力</li>
+                                                <li>5、有强烈的事业心、责任心和积极的工作态度，有物联网招商加盟经验者优先</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>市场营销</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>
+                                            市场营销，推广
+                                            </p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、制定公司发展战略，负责其功能领域内短期及长期的公司决策和战略，对公司中长期目标的达成产生重要影响</li>
+                                                <li>2、负责公司产品的推广、市场开拓、商务合作洽谈工作，统筹各类活动的策划、管理、协调并监督执行</li>
+                                                <li>3、负责开拓市场渠道和渠道对接业务，合理制定市场渠道的开发策略方案并进行相关的宣传推广包括管理以及进度的推进，建立公司的市场运作体制，确保市场渠道合作落地</li>
+                                                <li>4、负责建立和扩展客户资源，开拓公司相关产品的销售市场</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、具有极强的艺术类渠道拓展和商业营销、执行能力</li>
+                                                <li>2、具有极强的组织能力和沟通能力</li>
+                                                <li>3、对市场销售工作有较高的热情</li>
+                                                <li>4、性格坚韧，思维敏捷，具备良好的应变能力和承压能力</li>
+                                                <li>5、有强烈的事业心、责任心和积极的工作态度，有物联网市场销售经验者优先</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>HR</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>
+                                            HR，人事
+                                            </p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、全面负责公司的招聘工作；优化招聘流程，提高招聘效率，满足公司发展对人才的需求</li>
+                                                <li>2、建立、完善公司人力资源制度和工作流程</li>
+                                                <li>3、负责公司员工关系,参与企业文化建设，组织开展各项活动</li>
+                                                <li>4、其他人力资源工作</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、人力资源、企业管理、社会学、心理学等相关专业本科学历</li>
+                                                <li>2、2年以上人力资源工作经验，其中1年以上招聘相关工作经验，具有互联网或软件行业经验优先考虑</li>
+                                                <li>3、喜爱人力资源工作，正直诚信，性格开朗，善于沟通，有亲和力，较强的责任感与敬业精神，自我驱动</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>出纳</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>
+                                            财务出纳
+                                            </p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、日常账务处理工作：审核凭证、编制报表、编制财务分析报告</li>
+                                                <li>2、编制预算，编制预算差异化分析</li>
+                                                <li>3、负责纳税申报工作及税务筹划</li>
+                                                <li>4、妥善保管财务资料，保守财务秘密</li>
+                                                <li>5、内外部单位的联络和支持</li>
+                                                <li>6、完成上级安排的其他工作</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、大学本科及以上学历，财务管理或会计专业</li>
+                                                <li>2、3年以上工作经验</li>
+                                                <li>3、具有会计从业资格证、会计师资格证书</li>
+                                                <li>4、熟悉国家会计准则及相关的财务、税务、审计法规、政策</li>
+                                                <li>5、有物联网行业工作经验者优先</li>
+                                                <li>6、有中级会计师职称者优先</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div>
+                               <div class="h">研发部</div>
+                                <h4><strong>采购专员</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topSpan">
+                                            <p>
+                                                <span>学历：无限制</span>
+                                                <span>地点：杭州</span>
+                                                <span>工作经验：2年以上</span>
+                                            </p>
+                                            <p>
+                                            采购，电子料或结构件物料
+                                            </p>
+                                            <p>
+                                            <strong>工作职责及内容:</strong>
+                                            </p>
+                                            <ul class="bottos">
+                                                <li>1、供应商开发及管理，不断优化供应链</li>
+                                                <li>2、掌握市场行情，产品讯息，提供研发元器件选型决策信息</li>
+                                                <li>3、协助其它部门解决供应链的异常问题</li>
+                                            </ul>
+                                            <p class="colo">
+                                            <strong>任职要求:</strong>
+                                            </p>
+                                            <ul>
+                                                <li>1、本科及以上学历，2年以上电子行业Sourcing或采购经验</li>
+                                                <li>2、熟悉电子料或结构件物料（如：压铸、钣金、塑胶、线缆、PCB、包材等）特性及采购特点，熟悉供应商管理及供应项目管理</li>
+                                                <li>3、从事过芯片，集成电路行业者优先</li>
+                                                <li>4、良好的职业操守纪录，具备优秀的商业谈判技巧，具备一定的市场判断与分析能力，材料成本分析及较强的沟通协调能力</li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-scroll">
+                       
+                       
+                    </div>
+
+                    <div class="tab-scroll">
+                        
+                       
+                    </div>
+
+                    <div class="tab-scroll">
+                        
+                       
+                    </div>
+
+                    <div class="tab-scroll">
+                        
+                       
+                    </div>
+
+
+                    <div class="tab-scroll">
+                        
+                      
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="nav-footer nav-footerfooter">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-plam pull-left">
+                    <div class="hh">关于速利</div>
+                    <p>速利简介</p>
+                    <p>加入速利</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">服务支持</div>
+                    <p>合作伙伴</p>
+                    <p>联系我们</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">合作伙伴</div>
+                    <p>下载中心</p>
+                    <p>典型客户</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">产品系列</div>
+                    <p>智能终端</p>
+                    <p>软件系统</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="index-img">
+                        <img src="images/tu.png" alt=""/>
+                    </div>
+                    <h4>关于我们</h4>
+                </div>
+            </div>
+            <!-- <div class="foot-phone-content">
+                <h4>产品方案</h4>
+                <div class="phone-line">
+                    <p class="pull-left">共享出行</p>
+                    <p class="pull-left">运动健康</p>
+                    <p class="pull-left">智慧城市</p>
+                    <p class="pull-left">智能家居</p>
+                    <p class="pull-left">平台服务</p>
+                </div>
+                <h4>关于我们</h4>
+                <div class="phone-line">
+                    <p class="pull-left">公司简介</p>
+                    <p class="pull-left">公司理念</p>
+                    <p class="pull-left">平台模式</p>
+                </div>
+                <h4>联系我们</h4>
+                <div class="phone-line">
+                    <p class="pull-left">公司地址</p>
+                    <p class="pull-left">联系方式</p>
+                    <p class="pull-left">电子邮件</p>
+                </div>
+                <h4>关注我们</h4>
+                <div class="phone-line">
+                    <img src="images/code-img.jpg" alt=""/>
+                </div>
+            </div> -->
+            <p class="text-center">浙ICP备17053660号  浙公网安备 3301040084909号 </p>
+        </div>
+    </div>
+    <!--底部end-->
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src='js/resume.js'></script>
+<!-- <script src='js/share.js'></script> -->
+</body>
+</html>

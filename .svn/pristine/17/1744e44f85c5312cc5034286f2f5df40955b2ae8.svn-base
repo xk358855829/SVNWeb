@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>速利科技</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style-font.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/showCss.css">
+    <link rel="Shortcut Icon" href="images/bitbug_faviconH.ico">
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">
+                    <img class="img-responsive gif" src="images/logo1.png"/>
+                    <img class="imgRight" src="images/safe0.png">
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">首页</a></li>
+                        <li class="topLi">
+                            <a class="active" href="product-service.html">智能终端</a>
+                            <div class="showBox proBox">
+                                <ul>
+                                    <li>出行安全</li><li>场馆安全</li><li>城市安全</li><li>社区安全</li><li>平台服务</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="topLi">
+                            <a href="SystemScheme.html">系统方案</a>
+                            <div class="showBox sysBox">
+                                <ul class="lastmomet">
+                                    <li><a href="safe4.html">智能停车解决方案</a></li><li><a href="safe1.html">智能消防栓解决方案</a></li><li><a href="safe3.html">智能门锁解决方案</a></li><li><a href="SystemScheme.html">智能车辆定位解决方案</li></a><li><a href="safe2.html">智能场馆解决方案</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li><a href="about-us.html">关于我们</a></li> -->
+                        <li><a href="new.html">合作伙伴</a></li>
+                        <li><a href="contact-us.html">关于速利</a></li>
+                        <li><a href="resume.html">加入我们</a></li>
+                        <li class="topLi">
+                            <a href="###">平台入口</a>
+                            <div class="showBox proBoxs">
+                                <ul>
+                                   <li><a href="http://cloud.sokeed.com">停车服务云平台</a></li>
+                                    <li><a href="http://dlock.sokeed.com">家居服务云平台</a></li>
+                                    <li><a href="http://car.sokeed.com">出行服务云平台</a></li>
+                                    <li><a href="http://fireplug.sokeed.com">消防服务云平台</a></li>
+                                    <li><a href="http://sport.sokeed.com">门禁服务云平台</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav>
+    <!--ban   start-->
+    <div class="product-ban">
+        <img src="images/product-ban.jpg" alt="First slide">
+    </div>
+    <!--banner  end-->
+    <!---->
+    <div class="product-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="product-content">
+                        <h4>共享出行</h4>
+                        <ul class="product-tab list-unstyled">
+                            <li class="green">共享单车锁</li>
+                            <li>车辆定位器</li>
+                            <li>物联车位锁</li>
+                            <!-- <li>车位预定系统</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="tab-scroll">
+                        <div class="tab-content">
+                            <div>
+                                <h4><strong>共享单车锁</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/1.jpg" alt="">
+                                        </div>
+                                        <div class="topSpan">
+                                            <p>
+                                            <strong>产品介绍</strong>
+                                            </p>
+                                            <p>
+                                            共享单车为民众完美解决“最后一公里”问题，同时极大的促进了城市的低碳节能环保工作的开展。速利科技充分发挥自己在物联网技术领域的优势，将BLE、GPRS、GPS以及最新的窄带物联网技术NB-IoT有效结合，为单车提供全新智能车锁解决方案。
+                                            </p>
+                                            <p>
+                                            <strong>提供服务</strong>
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    智能单车锁硬件设备
+                                                </li>
+                                                <li>
+                                                    云平台第三方对接接口
+                                                </li>
+                                                <li>
+                                                    手机微信端APP
+                                                </li>
+                                                <li>
+                                                    适用于远程开锁、自用智能单车、共享单车等领域
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-content">
+                            <div>
+                                <h4><strong>车辆定位器</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/2.jpg" alt="">
+                                        </div>
+                                        <div class="topSpan">
+                                            <p>
+                                            <strong>产品介绍</strong>
+                                            </p>
+                                            <p>
+                                            对贷款车辆、抵押车辆的监控，一直是相关公司关注的焦点，速利科技利用传统移动物联网技定位技术，以及最新低功耗、大连接的NB-IOT通讯技术，推出系列车载追踪器，以及配套的车辆云服务平台，可为广大车贷公司及相关企业提供全新车辆监控、追踪、管理服务。
+                                            </p>
+                                            <p>
+                                            <strong>提供服务</strong>
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    有源/无源定位器
+                                                </li>
+                                                <li>
+                                                    车辆监测平台
+                                                </li>
+                                                <li>
+                                                    手机微信端APP
+                                                </li>
+                                                <li>
+                                                    适用于车贷，汽车销售等领域
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div>
+                                <h4><strong>物联车位锁</strong></h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/3.jpg" alt="">
+                                        </div>
+                                        <div class="topSpan">
+                                            <p>
+                                            <strong>产品介绍</strong>
+                                            </p>
+                                            <p>
+                                            停车难一直是出行的痛点，提供有效的停车位置，尤其在城市、旅游人群密集区域更为迫切。速利科技根据市场情况，结合城市车位的特点，提出新一代智能车位地锁及对应的云端平台概念，将车位分享、车位管控、个人及企业车位收益紧密结合，有效的缓解城市及景区停车问题。
+                                            </p>
+                                            <p>
+                                            <strong>提供服务</strong>
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    采用NB-IOT 5G移动通讯技术，穿透能力更广，功耗低，资费更省。
+                                                </li>
+                                                <li>
+                                                    采用特殊的外观设计，抗压的同时，外观更加精美不死板。
+                                                </li>
+                                                <li>
+                                                    低功耗MCU设计及自有的低功耗管理，电磁寿命更长。
+                                                </li>
+                                                <li>
+                                                    预留蓝牙模组，实现本地通讯以及应急处理。
+                                                </li>
+                                                <li>
+                                                    移动ESIM芯片卡，解决传统卡托塑料模具老化导致的通讯问题。
+                                                </li>
+                                                <li>
+                                                    微信服务号入口，即可控制，无需安装APP。
+                                                </li>
+                                                <li>
+                                                    云平台集设备管理、角色管理、销售管理等一体。
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- <div class="tab-content">
+                            <div>
+                                <h4>车位预定系统</h4>
+                                <div class="row">
+                                    <div class="modal-body">
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/4.jpg" alt="">
+                                        </div>
+                                        <div class="topImg">
+                                            <img class="img-responsive img-centered" src="images/share/12.jpg" alt="">
+                                        </div>
+                                        <div class="topSpan">
+                                            <p>
+                                            <strong>产品介绍</strong>
+                                            </p>
+                                            <p>
+                                            停车难一直是出行的痛点，提供有效的停车位置，尤其在城市、旅游人群密集区域更为迫切。速利科技根据市场情况，结合城市车位的特点，提出新一代智能车位地锁及对应的云端平台概念，将车位分享、车位管控、个人及企业车位收益紧密结合，有效的缓解城市及景区停车问题。
+                                            </p>
+                                            <p>
+                                            <strong>提供服务</strong>
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    采用NB-IOT 5G移动通讯技术，穿透能力更广，功耗低，资费更省。
+                                                </li>
+                                                <li>
+                                                    采用特殊的外观设计，抗压的同时，外观更加精美不死板。
+                                                </li>
+                                                <li>
+                                                    低功耗MCU设计及自有的低功耗管理，电磁寿命更长。
+                                                </li>
+                                                <li>
+                                                    预留蓝牙模组，实现本地通讯以及应急处理。
+                                                </li>
+                                                <li>
+                                                    移动ESIM芯片卡，解决传统卡托塑料模具老化导致的通讯问题。
+                                                </li>
+                                                <li>
+                                                    微信服务号入口，即可控制，无需安装APP。
+                                                </li>
+                                                <li>
+                                                    云平台集设备管理、角色管理、销售管理等一体。
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="nav-footer nav-foot">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-plam pull-left">
+                    <div class="hh">关于速利</div>
+                    <p>速利简介</p>
+                    <p>加入速利</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">服务支持</div>
+                    <p>合作伙伴</p>
+                    <p>联系我们</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">合作伙伴</div>
+                    <p>下载中心</p>
+                    <p>典型客户</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">产品系列</div>
+                    <p>智能终端</p>
+                    <p>软件系统</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="index-img">
+                        <img src="images/tu.png" alt=""/>
+                    </div>
+                    <h4>关于我们</h4>
+                </div>
+            </div>
+            <!-- <div class="foot-phone-content">
+                <h4>产品方案</h4>
+                <div class="phone-line">
+                    <p class="pull-left">共享出行</p>
+                    <p class="pull-left">运动健康</p>
+                    <p class="pull-left">智慧城市</p>
+                    <p class="pull-left">智能家居</p>
+                    <p class="pull-left">平台服务</p>
+                </div>
+                <h4>关于我们</h4>
+                <div class="phone-line">
+                    <p class="pull-left">公司简介</p>
+                    <p class="pull-left">公司理念</p>
+                    <p class="pull-left">平台模式</p>
+                </div>
+                <h4>联系我们</h4>
+                <div class="phone-line">
+                    <p class="pull-left">公司地址</p>
+                    <p class="pull-left">联系方式</p>
+                    <p class="pull-left">电子邮件</p>
+                </div>
+                <h4>关注我们</h4>
+                <div class="phone-line">
+                    <img src="images/code-img.jpg" alt=""/>
+                </div>
+            </div> -->
+            <p class="text-center">浙ICP备17053660号  浙公网安备 3301040084909号 </p>
+        </div>
+    </div>
+    <!--底部end-->
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src='js/index.js'></script>
+<script src='js/share.js'></script>
+</body>
+</html>

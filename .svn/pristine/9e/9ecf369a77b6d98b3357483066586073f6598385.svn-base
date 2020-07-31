@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>设备列表</title>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	</head>
+	<body>
+	</body>
+	<script type="text/javascript">
+		function getQueryString(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+			var r = window.location.search.substr(1).match(reg);
+			if(r != null) return unescape(r[2]);
+			return null;
+		}
+		$.ajax({
+			type:"get",
+			url:"http://39.104.113.112:2088/User/add",
+			async:true,
+			data:{
+				code: getQueryString('code'),
+				parkingId:'PI1540957659034816320'
+			},
+			success:function(message){
+				if(message.resCode==0){
+					var openId = message.openId;
+					localStorage.setItem('openid', openId)
+					location.href = 'setPhone.html?_'+new Date().getTime();
+				}
+			}
+		});
+	</script>
+
+</html>

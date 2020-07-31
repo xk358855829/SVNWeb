@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>速利科技</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style-font.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="Shortcut Icon" href="www.suriot.cn/images/bitbug_faviconH.ico"> -->
+    <link rel="Shortcut Icon" href="images/bitbug_faviconH.ico">
+</head>
+<body data-spy="scroll">
+     <!-- data-target="#partner" -->
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">
+                    <img class="img-responsive gif" src="images/logo1.png"/>
+                    <img class="imgRight" src="images/safe0.png">
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a class="active" href="index.html">首页</a></li>
+                        <li class="topLi">
+                            <a href="product-service.html">智能终端</a>
+                            <div class="showBox proBox">
+                                <ul>
+                                    <li>出行安全</li><li>场馆安全</li><li>城市安全</li><li>社区安全</li><li>平台服务</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="topLi">
+                            <a href="SystemScheme.html">系统方案</a>
+                            <div class="showBox sysBox">
+                                <ul class="lastmomet">
+                                    <li><a href="safe4.html">智能停车解决方案</a></li><li><a href="safe1.html">智能消防栓解决方案</a></li><li><a href="safe3.html">智能门锁解决方案</a></li><li><a href="SystemScheme.html">智能车辆定位解决方案</li></a><li><a href="safe2.html">智能场馆解决方案</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- <li><a href="about-us.html">关于我们</a></li> -->
+                        <li><a href="new.html">合作伙伴</a></li>
+
+                        <li><a href="contact-us.html">关于速利</a></li>
+                        <li><a href="resume.html">加入我们</a></li>
+                        <li class="topLi">
+                            <a href="">平台入口</a>
+                            <div class="showBox proBoxs">
+                                <ul>
+                                   <li><a href="http://cloud.sokeed.com">停车服务云平台</a></li>
+                                    <li><a href="http://dlock.sokeed.com">家居服务云平台</a></li>
+                                    <li><a href="http://car.sokeed.com">出行服务云平台</a></li>
+                                    <li><a href="http://fireplug.sokeed.com">消防服务云平台</a></li>
+                                    <li><a href="http://sport.sokeed.com">门禁服务云平台</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav>
+    <div class="sdke-wrap">
+        <!--轮播start-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <!-- <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li> -->
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/banner.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                    <img src="images/banner12.png" alt="Second slide">
+                </div>
+                <!-- <div class="item">
+                    <img src="images/banner-4.jpg" alt="Third slide">
+                </div>
+                <div class="item">
+                    <img src="images/banner-5.jpg" alt="Four slide">
+                </div>
+                <div class="item">
+                    <img src="images/banner-7.jpg" alt="Five slide">
+                </div>
+                <div class="item">
+                    <img src="images/banner-6.jpg" alt="Six slide">
+                </div> -->
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <!--轮播end-->
+    </div>
+    <!--社区安全-->
+    <div class="content">
+        <div class="row1">
+            <div class="collg">
+                <!-- <div><img class="img-responsive img-centered" src="images/b (5).png" alt=""></div> -->
+                <div class="responBox">
+                    <div class="reapanTop">
+                        <div class="reapanTopSpan xipes">
+                            <div class="zongk"></div>
+                            <div>社区安全</div>
+                        </div>
+                        <div class="xipe">针对社区，速利可提供家庭门锁、公寓专用门锁 、楼层单元门控、小区大门闸机门控等多种安全产品设备，涉及NB-IOT、二维码、NFC、人脸识别等多种技术，将人和设备加密关联并有效管理，并将运营数据与安保部门对接，高效、安全。</div>
+                    </div>
+                    <div class="reapanMid">
+                        <ul>
+                            <li><p><img src="images/1公寓门控.png" alt=""></p><p>公寓门控</p></li>
+                            <li><p><img src="images/2家庭门控.png" alt=""></p><p>家庭门控</p></li>
+                            <li><p><img src="images/3小区门控.png" alt=""></p><p>小区门控</p></li>
+                            <li><p><img src="images/4水电抄收.png" alt=""></p><p>水电抄收</p></li>
+                        </ul>
+                        <ul>
+                            <li><p><img src="images/5人机关联.png" alt=""></p><p>人机关联</p></li>
+                            <li><p><img src="images/6移动端管理.png" alt=""></p><p>移动端管理</p></li>
+                            <li><p><img src="images/7云端管理.png" alt=""></p><p>云端平台</p></li>
+                            <li><p><img src="images/8安保数据.png" alt=""></p><p>安保数据</p></li>
+                        </ul>
+                    </div>
+                    <div class="reapanFoot">
+                        <a href="safe3.html">
+                            <div class="under">
+                                了解更多  >>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="modal-body">
+                    <img class="img-responsive img-centered" src="images/b (5).png" alt="">
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+    <!--出行安全-->
+    <div class="content contentcars">
+        <div class="row1">
+            <div class="collg">
+                
+                <div class="responBox responBox1 responBox6">
+                    
+                        
+                            <div class="reapanTop flf">
+                                 <div class="reapanTopSpan xipes">
+                                    <div class="zongk"></div>
+                                    <div>出行安全</div>
+                                </div>
+                                <div>速利深耕出行领域，将自有的专利技术，结合未来技术发展趋势，为单车、汽车、车位、停车场的安全管理提供配套的产品设备，为缓解城市出行压力、智能出行提供技术保证。</div>
+                            </div>
+                            <div class="reapanMid flf">
+                            <ul>
+                                <li><p><img src="images/9单车安全.png" alt=""></p><p>单车安全</p></li>
+                                <li><p><img src="images/10车辆定位.png" alt=""></p><p>车辆定位</p></li>
+                                <li><p><img src="images/11车位管理.png" alt=""></p><p>车位管理</p></li>
+                                <li><p><img src="images/12车牌识别.png" alt=""></p><p>车牌识别</p></li>
+                            </ul>
+                            <ul>
+                                <li><p><img src="images/13停车场管理.png" alt=""></p><p>停车场管理</p></li>
+                                <li><p><img src="images/14车辆预约.png" alt=""></p><p>车辆预约</p></li>
+                                <li><p><img src="images/15移动端APP.png" alt=""></p><p>移动端APP</p></li>
+                                <li><p><img src="images/16云平台.png" alt=""></p><p>云平台</p></li>
+                            </ul>
+                            </div>
+                            <div class="reapanFoot flf">
+                                <a href="safe4.html">
+                                    <div class="under">
+                                        了解更多  >>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                </div>
+                <!-- <p class="png">
+                    <img class="img-responsive img-centered fl" src="images/b (1).png" alt="">
+                </p> -->
+                <!-- <div class="modal-body">
+                    <img class="img-responsive img-centered" src="images/b (5).png" alt="">
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+    <!--场馆安全-->
+    <div class="content contentchang">
+        <div class="row1">
+            <div class="collg">
+                <!-- <div><img class="img-responsive img-centered jired" src="images/b (2).png" alt=""></div> -->
+                <div class="responBox responBox4">
+                    <div class="reapanTop">
+                         <div class="reapanTopSpan xipes">
+                            <div class="zongk"></div>
+                            <div>场馆安全</div>
+                        </div>
+                    <div>面向健身房、体育馆等多种场馆类型，将二维码、NFC技术、指静脉、人脸生物识别、物联通讯技术有效结合，定制了一套符合应用场景的人机识别配对管理解决方案，确保人员安全进出，物品存放安全。</div>
+                    </div>
+                    <div class="reapanMid">
+                    <ul>
+                        <li><p><img src="images/17出行安全.png" alt=""></p><p>出入安全</p></li>
+                        <li><p><img src="images/18物品存放.png" alt=""></p><p>物品存放</p></li>
+                        <li><p><img src="images/19人脸识别.png" alt=""></p><p>人员识别</p></li>
+                        <li><p><img src="images/20人机匹配.png" alt=""></p><p>人机匹配</p></li>
+                    </ul>
+                    <ul>
+                        <li><p><img src="images/21云端监测.png" alt=""></p><p>云端监测</p></li>
+                        <li><p><img src="images/22第三方接口.png" alt=""></p><p>第三方接口</p></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    </div>
+                    <div class="reapanFoot">
+                        <a href="safe2.html">
+                            <div class="under">
+                                了解更多  >>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="modal-body">
+                    <img class="img-responsive img-centered" src="images/b (5).png" alt="">
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+    <!--城市安全-->
+    <div class="content contentche">
+        <div class="row1">
+            <div class="collg">
+                
+                <div class="responBox responBox1 responBox9">
+                    <div class="reapanTop flf">
+                    <div class="reapanTopSpan xipes">
+                            <div class="zongk"></div>
+                            <div>城市安全</div>
+                        </div>
+                    <div>对公共设施的管理，是城市安全不可缺少的部分，尤其是涉及到公共用水，窨井盖等，涉及到居民的人身财产安全。速利科技利用最新物联网技术，将这些设备有效的监管起来，可为责任部门提供必要的数据参考。</div>
+                    </div>
+                     <div class="reapanMid flf">
+                    <ul>
+                        <li><p><img src="images/23GPS+LBS.png" alt=""></p><p>GPS+LBS</p></li>
+                        <li><p><img src="images/24GPRSNB-IOT.png" alt=""></p><p class="tes">GPRS/NB-IOT</p></li>
+                        <li><p><img src="images/25电池供电.png" alt=""></p><p>电池供电</p></li>
+                        <li><p><img src="images/26移动端管理.png" alt=""></p><p>移动端管理</p></li>
+                    </ul>
+                    <ul>
+                        <li><p><img src="images/27API.png" alt=""></p><p>API</p></li>
+                        <li><p><img src="images/28云端监控.png" alt=""></p><p>云端监控</p></li>
+                        <li><p><img src="images/29地图分布.png" alt=""></p><p>地图分布</p></li>
+                        <li><p><img src="images/30流量状态.png" alt=""></p><p>流量状态</p></li>
+                    </ul>
+                    </div>
+                    <div class="reapanFoot flf">
+                        <a href="safe1.html">
+                            <div class="under">
+                                了解更多  >>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <p class="png pica">
+                    <img class="img-responsive img-centered fl" src="images/b (3).png" alt="">
+                </p> -->
+                <!-- <div class="modal-body">
+                    <img class="img-responsive img-centered" src="images/b (5).png" alt="">
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+   <!--  <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="agileits-title"><strong>智能终端</strong></h2>
+                <h4 class=" section-subheading text-muted"> Intelligent Terminal</h4>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="container agileits-content">
+        <div class="product-service">
+            <div class="travel">
+                    <div>
+                        <a href="product-service.html?code=0"><span class="demo-bicyte"></span></a>
+                    </div>
+                    <h4  class="text-center"><strong>共享出行</strong></h4>
+                    <p>
+                        单车智能化、公共停车位管理、机动车辆监管等出行安全、智能化解决方案
+                    </p>
+            </div>
+            <div class="travel">
+                <div>
+                    <a href="product-service.html?code=1"><span class="icon-accessibility"></span></a>
+                </div>
+                <h4  class="text-center"><strong>运动健康</strong></h4>
+                <p>
+                    拥有人脸识别、指静脉、二维码、RFID等多种身份识别技术，致力于门禁、闸机、储物柜、器械等配套智能化服务
+                </p>
+            </div>
+            <div class="travel">
+                <div>
+                    <a href="product-service.html?code=2"><span class="demo-city"></span></a>
+                </div>
+                <h4  class="text-center"><strong>智慧城市</strong></h4>
+                <p>
+                    面向消防水栓、道路窨井盖、城市路灯物联等智能化服务，提供公共设施物联网解决方案
+                </p>
+            </div>
+            <div class="travel">
+                <div>
+                    <a href="product-service.html?code=3"><span class="icon-home"></span></a>
+                </div>
+                <h4  class="text-center"><strong>智能家居</strong></h4>
+                <p>
+                    结合最新的各种通讯技术，致力于家庭门锁、智能公寓智能化服务
+                </p>
+            </div>
+             <div class="travel">
+                <div>
+                    <a href="product-service.html?code=4"><span class="icon-cloud-check"></span></a>
+                </div>
+                <h4  class="text-center"><strong>平台服务</strong></h4>
+                <p>
+                    智能设备管理服务云平台建设，集生成、销售、服务一体的全生态解决方案，可根据需要进行定制化服务
+                </p>
+            </div>
+        </div>
+    </div> -->
+    <!--产品服务end-->
+    <!--关于我们-->
+    <!-- <div class="contact-us">
+        <div class="container contact-us-title">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="agileits-title"><strong>关于我们</strong></h2>
+                    <h4 class=" section-subheading text-muted">About Us</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contact-us-content">
+                <div class="platform">
+                    <img src="images/concat-img.jpg" alt=""/>
+                    <div class="mask">
+                        <div class="bg other-bg"></div>
+                        <div class="index-mask">
+                            <div class="box-icon">
+                                <span class="demo-ion demo-synopsis"></span>
+                            </div>
+                            <h3>公司简介</h3>
+                            <a href="about-us.html#brief" class="detils-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="platform">
+                    <img src="images/concat-img.jpg" alt=""/>
+                    <div class="mask">
+                        <div class="bg other-bg"></div>
+                        <div class="index-mask">
+                            <div class="box-icon">
+                                <span class="demo-ion demo-lead"></span>
+                            </div>
+                            <h3>公司理念</h3>
+                            <a href="about-us.html#idea" class="detils-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="platform">
+                    <img src="images/concat-img.jpg" alt=""/>
+                    <div class="mask">
+                        <div class="bg other-bg"></div>
+                        <div class="index-mask">
+                            <div class="box-icon">
+                                <span class="demo-ion demo-platform"></span>
+                            </div>
+                            <h3>平台模式</h3>
+                            <a href="about-us.html#platform" class="detils-btn">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--关于我们end-->
+    <!--合作伙伴-->
+    <!--<div id="partner" style="height: 50px;width: 100%;background: #eee;">
+    </div>-->
+    <!-- <div class="partner" id="" custom='partner'>
+        <div class="container contact-us-title">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="agileits-title"><strong>合作伙伴</strong></h2>
+                    <h4 class=" section-subheading text-muted">Cooperative Partner</h4>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" style="margin-bottom:30px;">
+                <div class="col-md-6">
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/lenovo.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/dongde.jpg" class="img-responsive img-centered text-muted rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/lvcheng.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/threeflower.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/shoukai.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/aliyun.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"> <img src="images/vodafone.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/tengxun.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"> <img src="images/bsw.jpg" class="img-responsive img-centered rota" title="中国电信"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/rongchuang.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/yinjiang.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/yuexiu.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/onenet.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/yidon.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/dianxin.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-3 col-sm-4 aboutlogo">
+                        <a href="#"><img src="images/liantong.jpg" class="img-responsive img-centered rota"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!--合作伙伴end-->
+    <!--关于我们-->
+    <div class="touch-content bottom-con fivewto">
+        <div class="container contact-us-title">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="agileits-title">关于我们</h2>
+                    <h4 class=" section-subheading text-muted text1">速利科技是一家立足物联网技术，专注身份识别与安全控制应用的创新型企业，拥有国内物联网领域优秀的实战性人才，在生物识别、物联交互、云端平台、移动通讯、自动控制技术积累了丰富的经验，为出行安全、社区安全、场馆安全、城市安全提供一站式产品解决方案。</h4>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img src="images/b (4).png" alt="">
+                <a href="contact-us.html">
+                   <div class="know">
+                      了解更多
+                   </div>
+               </a>
+            
+        </div>
+    </div>
+    <!--关于我们end-->
+    <!--底部-->
+    <div class="nav-footer nav-footer2">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-plam pull-left">
+                    <div class="hh">关于速利</div>
+                    <p>速利简介</p>
+                    <p>加入速利</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">服务支持</div>
+                    <p>合作伙伴</p>
+                    <p>联系我们</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">合作伙伴</div>
+                    <p>下载中心</p>
+                    <p>典型客户</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="hh">产品系列</div>
+                    <p>智能终端</p>
+                    <p>软件系统</p>
+                </div>
+                <div class="footer-plam pull-left">
+                    <div class="index-img">
+                        <img src="images/tu.png" alt=""/>
+                    </div>
+                    <h4>关于我们</h4>
+                </div>
+            </div>
+            <!-- <div class="foot-phone-content">
+                <h4>产品方案</h4>
+                <div class="phone-line">
+                    <p class="pull-left">共享出行</p>
+                    <p class="pull-left">运动健康</p>
+                    <p class="pull-left">智慧城市</p>
+                    <p class="pull-left">智能家居</p>
+                    <p class="pull-left">平台服务</p>
+                </div>
+                <h4>关于我们</h4>
+                <div class="phone-line">
+                    <p class="pull-left">公司简介</p>
+                    <p class="pull-left">公司理念</p>
+                    <p class="pull-left">平台模式</p>
+                </div>
+                <h4>联系我们</h4>
+                <div class="phone-line">
+                    <p class="pull-left">公司地址</p>
+                    <p class="pull-left">联系方式</p>
+                    <p class="pull-left">电子邮件</p>
+                </div>
+                <h4>关注我们</h4>
+                <div class="phone-line">
+                    <img src="images/code-img.jpg" alt=""/>
+                </div>
+            </div> -->
+            <p class="text-center">浙ICP备17053660号  浙公网安备 3301040084909号 </p>
+        </div>
+    </div>
+    <!--底部end-->
+
+
+
+
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src='js/index.js'></script>
+<script>    
+// function DrawImage('images/b (5).png',1215){
+// //图片大小控制ImgD图片路径，ImgW是宽或高，看效果，看代码
+// var image=new Image();
+// image.src=ImgD.src;
+// if(image.width>0 && image.height>0){
+// if(image.width/image.height>= 1){
+// if(image.width>ImgW){
+// ImgD.width=ImgW;
+// ImgD.height=(image.height*ImgW)/image.width;
+// }else{
+// ImgD.width=image.width;
+// ImgD.height=image.height;
+// }
+// ImgD.alt=image.width+"×"+image.height;
+// }
+// else{
+// if(image.height>ImgW){
+// ImgD.height=ImgW;
+// ImgD.width=(image.width*ImgW)/image.height;
+// }else{
+// //ImgD.width=(image.width*ImgW)/image.height;
+// ImgD.width=image.width;
+// ImgD.height=image.height;
+// }
+// ImgD.alt=image.width+"×"+image.height;
+// }
+// }
+// }
+
+
+</script>
+</body>
+</html>

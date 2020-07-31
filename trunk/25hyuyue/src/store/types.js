@@ -1,0 +1,10 @@
+export const METHODP = 'methodp'
+export const ORDERDETAIL = 'orderdetail'
+export const MARK = 'mark'
+export const ADDRESS = 'address'
+export const USER = 'user'
+export const USEOBJ = 'useobj'
+export const ORDER = "order"
+export const MEA = 'mea'
+export const TOTALS = 'totals'
+export const QUAN = 'QUAN'

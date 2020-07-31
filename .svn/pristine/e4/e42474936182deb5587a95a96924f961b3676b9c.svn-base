@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>洗车服务</title>
+
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=PWttlCcjWHRXa9YrV7LwVIzlT7qQRlNS"></script>
+  <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript" charset="utf-8"></script>
+  <!--<script src="static/china.js" type="text/javascript" charset="utf-8"></script>-->
+</head>
+<style>
+  .picker {
+    display: inherit!important;
+    position: relative!important;
+  }
+</style>
+<link rel="stylesheet" type="text/css" href="./static/reset.css" />
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+<script type="text/javascript">
+  fnResize()
+  window.onresize = function () {
+    fnResize()
+  }
+  function fnResize() {
+    var deviceWidth = document.documentElement.clientWidth || window.innerWidth
+    if (deviceWidth >= 750) {
+      deviceWidth = 750
+    }
+    if (deviceWidth <= 320) {
+      deviceWidth = 320
+    }
+    document.documentElement.style.fontSize = (deviceWidth / 7.5) + 'px'
+  }
+
+  window.onload=function () {
+    document.addEventListener('touchstart',function (event) {
+      if(event.touches.length>1){
+        event.preventDefault();
+      }
+    });
+    var lastTouchEnd=0;
+    document.addEventListener('touchend',function (event) {
+      var now=(new Date()).getTime();
+      if(now-lastTouchEnd<=300){ 
+        event.preventDefault(); 
+      } lastTouchEnd=now; 
+    },false);
+    document.addEventListener('gesturestart', function (event) { 
+      event.preventDefault(); 
+    }); 
+  }
+  // function getIP(json) {
+  //   console.log("My public IP address is: ", json.ip);
+  //   sessionStorage.setItem("ip",json.ip);
+  // }
+</script>
+<!-- <script src="https://api.ipify.org?format=jsonp&callback=getIP"></script> -->
+</html>

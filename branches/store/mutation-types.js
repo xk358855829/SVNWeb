@@ -1,0 +1,7 @@
+export const FANMLI = 'FANMLI'
+export const TOTAL = 'TOTAL'
+export const ONEFANMLI = 'ONEFANMLI'
+export const ONETOTAL = 'ONETOTAL'
+export const LQOLS = 'LQOLS'
+export const NAME = 'NAME'
+export const SAVE_SALEPLANS = 'SAVE_SALEPLANS'
